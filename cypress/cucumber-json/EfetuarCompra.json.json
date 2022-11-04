@@ -1,0 +1,94 @@
+[
+  {
+    "description": "  Como um usuário\n  Eu quero visualizar os produtos disponíveis no site\n  Para que eu possa efetuar a compra de produtos desejados",
+    "keyword": "Funcionalidade",
+    "name": "Efetuar Compra",
+    "line": 4,
+    "id": "efetuar-compra",
+    "tags": [
+      {
+        "name": "@EfetuarCompra",
+        "line": 3
+      }
+    ],
+    "uri": "EfetuarCompra.feature",
+    "elements": [
+      {
+        "description": "  O usuário deve conseguir adicionar produtos ao carrinho\n  e finalizar a compra assim que desejar",
+        "id": "efetuar-compra;efetuar-compra-com-sucesso",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Efetuar compra com sucesso",
+        "tags": [
+          {
+            "name": "@EfetuarCompra",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que acesso a página de Produtos",
+            "result": {
+              "status": "passed",
+              "duration": 913000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "adiciono ao carrinho os produtos que desejo comprar",
+            "result": {
+              "status": "passed",
+              "duration": 375000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 16,
+            "name": "confirmo os produtos no carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "informo os dados para entrega do pedido",
+            "result": {
+              "status": "passed",
+              "duration": 866000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 18,
+            "name": "finalizo a compra",
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 19,
+            "name": "devo visualizar mensagem indicando que a compra foi efetivada",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "description": "  Como um usuário\n  Eu quero acessar a página de Login\n  Para eu poder me autenticar e acessar o site",
+    "keyword": "Funcionalidade",
+    "name": "Login",
+    "line": 4,
+    "id": "login",
+    "tags": [
+      {
+        "name": "@Login",
+        "line": 3
+      }
+    ],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "description": "  O usuário deve conseguir acessar a sua conta com credenciais válidas",
+        "id": "login;login-com-credenciais-válidas",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login com credenciais válidas",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 13,
+            "name": "que acesso a página de Login",
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 14,
+            "name": "informo credenciais válidas",
+            "result": {
+              "status": "passed",
+              "duration": 775000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 15,
+            "name": "devo ser direcionado para a página de produtos",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "description": "  O usuário deve receber mensagem de erro ao tentar logar com credenciais inválidas",
+        "id": "login;login-com-credenciais-inválidas",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login com credenciais inválidas",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 21,
+            "name": "que acesso a página de Login",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Username",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "username",
+                      "wrongpass"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Quando ",
+            "line": 22,
+            "name": "informo credenciais inválidas",
+            "result": {
+              "status": "passed",
+              "duration": 621000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 25,
+            "name": "devo visualizar a mensagem \"Username and password do not match any user in this service\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

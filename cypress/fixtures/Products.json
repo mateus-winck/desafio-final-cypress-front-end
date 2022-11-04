@@ -1,0 +1,23 @@
+{
+"Products": [
+    {
+        "item_name": "Sauce Labs Backpack",
+        "item_price": "$29.99"
+    },
+    {
+        "item_name": "Sauce Labs Bike Light",
+        "item_price": "$9.99"
+    },
+    {
+        "item_name": "Sauce Labs Fleece Jacket",
+        "item_price": "$49.99"
+    },
+    {
+        "item_name": "Sauce Labs Onesie",
+        "item_price": "$7.99"
+    }
+],
+    "TotalTax": 7.84,
+    "Total": 105.80,
+    "TotalItem": 97.96
+}
